@@ -1,1 +1,13 @@
-include: package:flutter_lints/flutter.yaml
+include: package:very_good_analysis/analysis_options.5.1.0.yaml
+
+analyzer:
+  errors:
+    flutter_style_todos: ignore
+    sort_constructors_first: ignore
+  exclude:
+    - lib/src/l10n/**
+
+linter:
+  rules:
+    public_member_api_docs: false
+    depend_on_referenced_packages: false
