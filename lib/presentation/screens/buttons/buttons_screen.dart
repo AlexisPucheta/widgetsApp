@@ -64,7 +64,7 @@ class _ButtonsView extends StatelessWidget {
               onPressed: () {},
               icon: const Icon(Icons.access_alarm_outlined),
             ),
-            //TODO Custom Button
+            const _CustomButton(),
             IconButton(
               onPressed: () {},
               icon: const Icon(Icons.access_alarm_outlined),
@@ -75,6 +75,28 @@ class _ButtonsView extends StatelessWidget {
               ),
             ),
           ],
+        ),
+      ),
+    );
+  }
+}
+
+class _CustomButton extends StatelessWidget {
+  const _CustomButton();
+
+  @override
+  Widget build(BuildContext context) {
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(20),
+      child: Material(
+        color: Colors.blue,
+        child: InkWell(
+          onTap: () {},
+          splashColor: Colors.amber,
+          child: const Padding(
+            padding: EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+            child: Text('Custom Button', style: TextStyle(color: Colors.white)),
+          ),
         ),
       ),
     );
