@@ -45,4 +45,10 @@ const appMenuItems = <MenuItems>[
     icon: Icons.check_box_outlined,
     link: '/animated',
   ),
+  MenuItems(
+    title: 'UI Controls',
+    subtitle: 'Flutter UI controls',
+    icon: Icons.car_rental_outlined,
+    link: '/ui-controls',
+  ),
 ];
