@@ -27,7 +27,7 @@ class _UiControlsViewState extends State<_UiControlsView> {
   bool isDeveloperMode = false;
   Transportation selectedTransportation = Transportation.car;
   bool wantsBreakfast = false;
-  bool wantsLaunch = false;
+  bool wantsLunch = false;
   bool wantsDinner = false;
 
   @override
@@ -103,12 +103,12 @@ class _UiControlsViewState extends State<_UiControlsView> {
           },
         ),
         CheckboxListTile(
-          title: const Text('Launch'),
-          subtitle: const Text('Do you want Launch?'),
-          value: wantsLaunch,
+          title: const Text('Lunch'),
+          subtitle: const Text('Do you want Lunch?'),
+          value: wantsLunch,
           onChanged: (value) {
             setState(() {
-              wantsLaunch = value ?? false;
+              wantsLunch = value ?? false;
             });
           },
         ),
