@@ -57,4 +57,10 @@ const appMenuItems = <MenuItems>[
     icon: Icons.track_changes_outlined,
     link: '/app-tutorial',
   ),
+  MenuItems(
+    title: 'Infinite Scroll',
+    subtitle: 'Infinite scroll with pagination',
+    icon: Icons.screen_lock_landscape,
+    link: '/infinite-scroll',
+  ),
 ];
