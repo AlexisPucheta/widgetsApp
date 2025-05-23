@@ -69,4 +69,10 @@ const appMenuItems = <MenuItems>[
     icon: Icons.screen_lock_landscape,
     link: '/infinite-scroll',
   ),
+  MenuItems(
+    title: 'Theme Changer',
+    subtitle: 'Theme changer with Riverpod',
+    icon: Icons.color_lens_outlined,
+    link: '/theme-changer',
+  ),
 ];
